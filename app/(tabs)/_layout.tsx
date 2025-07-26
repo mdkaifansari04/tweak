@@ -10,11 +10,15 @@ export default function TabLayout() {
         headerShown: false,
         tabBarActiveTintColor: COLORS.primary,
         tabBarInactiveTintColor: COLORS.grey,
+        tabBarIconStyle: {
+          height: 40,
+          width: 40,
+        },
         tabBarStyle: {
           backgroundColor: COLORS.background,
           borderTopWidth: 0,
           elevation: 0,
-          height: 50,
+          height: 60,
         },
       }}
     >
