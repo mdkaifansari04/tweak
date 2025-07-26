@@ -1,4 +1,4 @@
-import { Loader } from "lucide-react-native";
+import { LoaderCircle } from "lucide-react-native";
 import React, { useEffect, useRef } from "react";
 import { Animated, Easing, View } from "react-native";
 
@@ -26,7 +26,7 @@ export default function FullScreenLoader() {
       style={{ flex: 1, justifyContent: "center", alignItems: "center", backgroundColor: "#fff" }}
     >
       <Animated.View style={{ transform: [{ rotate: spin }] }}>
-        <Loader size={32} />
+        <LoaderCircle size={32} />
       </Animated.View>
     </View>
   );
