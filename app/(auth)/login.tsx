@@ -1,10 +1,9 @@
 import { Text, View } from "react-native";
 import { styles } from "../../styles/index";
-
-export default function Index() {
+export default function Login() {
   return (
     <View style={styles.container}>
-      <Text>Hello and welcome to the world of tweak !</Text>
+      <Text>Login page</Text>
     </View>
   );
 }
